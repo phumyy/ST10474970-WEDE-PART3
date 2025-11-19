@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description "content ="Our enquire page consist of a form page where you fill in your details also our location and frequently asked questions are here">
+    <meta name="keywords" content=" Questions, form"
+<title>Sweet Fills Bakery – Enquiry</title>
+
+<!-- Poppins Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: #ffcee2; /* full pink background */
+    }
+
+    /* HEADER */
+    header {
+        background: #ff9fc5;
+        padding: 25px 0;
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* FORM BOX */
+    .form-container {
+        background: white;
+        width: 90%;
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 25px;
+        border-radius: 16px;
+        border: 2px solid #f9c6d8;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .form-container h2 {
+        text-align: center;
+        color: #d64a8a;
+        margin-bottom: 15px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1.5px solid #f3a7c0;
+        font-size: 14px;
+        background: #fff6fa;
+    }
+
+    input:focus, textarea:focus {
+        outline: none;
+        border-color: #d64a8a;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background: #ff7fb3;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #d64a8a;
+    }
+
+    /* MAP SECTION */
+    .map-section {
+        width: 90%;
+        max-width: 600px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .map-section h3 {
+        color: #d64a8a;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+        border-radius: 16px;
+        border: 2px solid #f9c6d8;
+        margin-top: 10px;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 30px;
+        background: #ff9fc5;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    Sweet Fills Bakery
+</header>
+
+<!-- FORM -->
+<div class="form-container">
+    <h2>Enquiry Form 💌</h2>
+
+    <form onsubmit="submitForm(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Enquiry</button>
+    </form>
+</div>
+
+<!-- MAP -->
+<div class="map-section">
+    <h3>📍 Find Us in Braamfontein, Johannesburg</h3>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.676195927903!2d28.0335!3d-26.1944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950bcd5077d0c7%3A0x2cc5a2ddedfb419!2sBraamfontein%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v0000000000000">
+    </iframe>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    © 2025 Sweet Fills Bakery • Braamfontein, Johannesburg • Open Mon–Sat 8am–6pm  
+</footer>
+
+<script>
+function submitForm(event) {
+    event.preventDefault();
+
+    alert("💗 Thank you! Your enquiry has been sent. We'll get back to you shortly!");
+
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+}
+</script>
+
+</body>
+</html
+
+         
+    
+
+
+        
+    
+    <section>
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>How far in advance should I place my order?</summary>
+                <p>For standard orders, we recommend 24-48 hours notice. For custom cakes and large orders, please allow 3-5 days.</p>
+            </details>
+            <details>
+                <summary>Do you offer gluten-free or vegan options?</summary>
+                <p>Yes! We have a selection of gluten-free and vegan baked goods. Please inquire about specific options.</p>
+            </details>
+            <details>
+                <summary>Do you deliver?</summary>
+                <p>We offer delivery within a 15km radius for orders over R250. Delivery fees apply based on distance.</p>
+            </details>
+            <details>
+                <summary>Can I modify an existing order?</summary>
+                <p>Changes to orders can be made up to 24 hours before the pickup/delivery time, subject to product availability.</p>
+            </details>
+
+        </section>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+                <a href= "enquire.html">Enquire</a>
+            
+    </main>
+</head>
+<body>
+    <header>
+         Sweet Fills Bakery - Braamfontein, Johannesburg
+    </header>
+
+    
+        
+
+    <footer>
+        © 2025 Sweet Fills Bakery | Freshly baked with love in Braamfontein 💖
+    </footer>
+</body>
+</html>
